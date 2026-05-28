@@ -1,0 +1,13 @@
+diagnostic,value,note
+q_est_rows,30809.0,Rows in private q_est output; no row-level data released here.
+q_est_countries,71.0,Unique countries represented in q_est.
+q_est_sector_codes,1229.0,Unique sector codes represented in q_est.
+named_rows,19651.0,Rows not classified as residual Other Source accounts.
+other_source_rows,11158.0,Residual Other Source rows identified by Others- prefix.
+figure_segment_rows,5095.0,Rows in private figure segment source; only count is released.
+figure_countries,36.0,Unique countries in private figure segment source.
+scope1_total,2.4892532666084362e10,Aggregate Scope 1 total from q_est.
+scope2_total,5.111031060824914e9,Aggregate Scope 2 total from q_est.
+scope23_total,4.077765219521758e10,Aggregate Scope 2+3 total from q_est.
+scope3_total,3.566662113439291e10,Aggregate Scope 3 residual from q_est.
+scope23_minus_scope2_minus_scope3_abs,0.00023651123046875,Numerical consistency check for Scope 3 = Scope 2+3 - Scope 2.

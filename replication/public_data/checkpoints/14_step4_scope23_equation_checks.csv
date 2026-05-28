@@ -1,0 +1,11 @@
+check,value,equation,note
+scope1_total,24892532666.084354,finite_sum(g_S1),Aggregate finite Scope 1 output from Step 4.
+scope2_total,5111031060.82493,finite_sum(g_S2),Aggregate finite Scope 2 output from Step 4.
+scope23_total,40777652195.21751,finite_sum(g_S23),Aggregate finite Scope 2+3 output from Step 4.
+scope3_total,35666621134.39257,finite_sum(g_S3),Aggregate finite Scope 3 residual from Step 4.
+scope23_minus_scope2_minus_scope3_abs,7.629395e-06,abs(finite_sum(g_S23) - finite_sum(g_S2) - finite_sum(g_S3)),Numerical decomposition check.
+n_negative_multiplier_e_g23,135.0,count(e_g23 < 0),Multiplier-vector numerical diagnostic after SUT zeroing.
+n_negative_scope3_total,255.0,count(g_S3 < 0),Scope 3 output diagnostic.
+inverse_residual_checked_columns,15.0,fixed first/middle/last columns,Deterministic inverse check.
+inverse_residual_max_abs,0.0,max(abs((I-A)L_selected - I_selected)),Deterministic inverse check.
+inverse_residual_median_abs,0.0,median(abs((I-A)L_selected - I_selected)),Deterministic inverse check.

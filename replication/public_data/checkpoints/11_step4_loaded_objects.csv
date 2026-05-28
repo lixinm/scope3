@@ -1,0 +1,8 @@
+stage,object,rows,cols,length,orientation,source_step,public_release_status,note
+load_step3_aggregate,T_agg,30810,30810,,matrix,03_emrio_aggregate.jl,aggregate diagnostics only; object not released,Aggregated transaction matrix loaded by Step 4.
+load_step3_aggregate,f,,,30810,row_vector,03_emrio_aggregate.jl,aggregate diagnostics only; object not released,Emission intensity row vector used in e = fL.
+load_step3_aggregate,A,30810,30810,,matrix,03_emrio_aggregate.jl,aggregate diagnostics only; object not released,Technical coefficient matrix used to construct I - A.
+load_step3_aggregate,I_EMRIO,30810,30810,,matrix,03_emrio_aggregate.jl,aggregate diagnostics only; object not released,Identity matrix matching A.
+load_step3_aggregate,info_qd_agg,30809,29,,table,03_emrio_aggregate.jl,aggregate diagnostics only; object not released,Destination/subsegment metadata; row-level metadata not released.
+load_step3_aggregate,info_q_agg,30809,24,,table,03_emrio_aggregate.jl,aggregate diagnostics only; object not released,Source/subsegment metadata; row-level metadata not released.
+load_step3_aggregate,g_agg,,,30810,vector,03_emrio_aggregate.jl,aggregate diagnostics only; object not released,Aggregated Scope 1 vector loaded by Step 4.

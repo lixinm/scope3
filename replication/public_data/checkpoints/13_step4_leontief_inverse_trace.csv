@@ -1,0 +1,8 @@
+stage,artifact,rows,cols,length,rounded_active_count,total,min,p50,p90,p99,max,n_negative,check_value,note
+construct_IA,I_minus_A,30810,30810,,155186600,,,,,,,,,Sparse diagnostic only; matrix cells not released.
+compute_inverse,Leontief_inverse,30810,30810,,,,,,,,0.0,,0.0,Dense inverse not released; max=maximum absolute residual and check_value=median absolute residual for fixed checked columns.
+compute_multiplier_e_after_sut_zeroing,emission_multiplier_after_sut_zeroing,,,30810,,19189187.292481,-76569.626687,192.144133,1187.479332,5325.553247,1648074.553019,135,,"Computed as e = fL, then SUT rows are set to zero before propagation; row-level vector not released."
+build_f_ener,energy_intensity_vector,,,30809,500,1338288.265033,0.0,0.0,0.0,499.227385,132882.198357,0,,Aggregate summary only; row-level vector not released.
+propagate_scope23,scope2plus3_output,,,30809,,40777652195.2175,-146414503.869279,5755.420119,1495980.337833,26269069.672743,383904946.421586,193,,Aggregate summary of Step 4 output.
+extract_scope2,scope2_output,,,30809,,5111031060.82493,-18129217.932145,343.155281,122361.146843,2593678.943582,160409863.924791,131,,Aggregate summary of Step 4 output.
+compute_scope3_residual,scope3_output,,,30809,,35666621134.39258,-144635077.81024,4576.446015,1315579.287346,23457948.130384,333029723.806601,255,,Aggregate summary of Step 4 output.

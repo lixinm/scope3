@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.txt
+*.csv
+*.pdf
+*.json
+*.zip
+*.jld2
+
+# Curated public checkpoint notebooks and aggregate CSVs.
+!replication/public_data/
+!replication/public_data/checkpoints/
+!replication/public_data/checkpoints/*.csv
+!replication/public_data/checkpoints/.gitkeep
+!replication/notebooks/
+!replication/notebooks/*.ipynb
+!replication/notebooks/README.md
+!replication/requirements.txt
+!replication/public_data/checkpoints/README.md
+
+# Prevent accidental publication of raw/intermediate MRIO data artifacts.
+*.npz
+data/GLORIA/
+import/
+

@@ -1,0 +1,5 @@
+stage,artifact,rows,cols,rounded_density_pct,finite_value_check,sum_total,diag_min,diag_median,diag_max,note
+load,T_agg,30810,30810,16.3451,true,1.49886092023842e8,,,,No matrix entries or nonzero-value quantiles released.
+load,A,30810,30810,16.7118,true,22542.935783,,,,No matrix entries or nonzero-value quantiles released.
+load,I_EMRIO,30810,30810,0.0032,true,30810.0,1.0,1.0,1.0,Identity matrix diagnostic.
+construct,I_minus_A,30810,30810,16.3482,true,8267.064217,0.355636,1.0,10.210593,Constructed as I_EMRIO - A; no matrix entries released.

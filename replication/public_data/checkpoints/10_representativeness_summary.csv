@@ -1,0 +1,3 @@
+sample,n_rows,numerator_metric,numerator_value,denominator_metric,denominator_value,coverage_share,note
+matched_company_rows_available,2012,scope1_plus_scope2plus3,6.767925681069112e9,full_emrio_scope1_plus_scope2plus3,6.567018486130194e10,0.10305933652179054,"Computed from public checkpoint generation inputs; row count reflects available df_c output, not a released firm table."
+reported_denominator_comparison,507,scope3_benchmark,2.182848491714296e9,full_emrio_scope3,3.566662113439291e10,0.06120143771088539,Computed from reported-denominator comparison benchmark total relative to full EMRIO Scope 3 total.

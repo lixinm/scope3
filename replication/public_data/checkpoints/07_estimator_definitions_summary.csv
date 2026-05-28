@@ -1,0 +1,8 @@
+metric,value,note
+n_reporting_companies,507,Number of company-level observations used in Figure 1 denominator comparison.
+aggregate_benchmark_scope3,2.182848491714296e9,Aggregate EMRIO-based Scope 3 benchmark for the comparison set.
+aggregate_reported_scope3,1.4473775748192642e9,Aggregate company-reported Scope 3 for the comparison set.
+ratio_of_aggregate_totals,1.508140328888867,Headline estimator used in the manuscript.
+mean_firm_level_ratio,146.45207160698547,Mean of firm-level benchmark/reported ratios.
+median_firm_level_ratio,6.394593516510175,Median of firm-level benchmark/reported ratios.
+share_benchmark_exceeds_report,0.8481262327416174,Share of companies for which benchmark exceeds report.
